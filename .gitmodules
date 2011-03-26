@@ -10,3 +10,6 @@
 [submodule "submodule/html5"]
 	path = submodule/html5
 	url = https://github.com/othree/html5-syntax.vim.git
+[submodule "submodule/json"]
+	path = submodule/json
+	url = https://github.com/vim-scripts/JSON.vim.git
