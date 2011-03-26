@@ -46,3 +46,6 @@
 [submodule "submodule/snipmate"]
 	path = submodule/snipmate
 	url = https://github.com/msanders/snipmate.vim.git
+[submodule "submodule/vividchalk"]
+	path = submodule/vividchalk
+	url = https://github.com/tpope/vim-vividchalk.git
