@@ -76,3 +76,6 @@
 [submodule "submodule/csv"]
 	path = submodule/csv
 	url = https://github.com/vim-scripts/csv.vim.git
+[submodule "submodule/neopro"]
+	path = submodule/neopro
+	url = https://github.com/vim-scripts/Neopro.git
