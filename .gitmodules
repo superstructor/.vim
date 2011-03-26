@@ -55,3 +55,6 @@
 [submodule "submodule/align"]
 	path = submodule/align
 	url = https://github.com/tsaleh/vim-align.git
+[submodule "submodule/ruby"]
+	path = submodule/ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
