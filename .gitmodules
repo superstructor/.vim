@@ -43,3 +43,6 @@
 [submodule "submodule/haml"]
 	path = submodule/haml
 	url = https://github.com/tpope/vim-haml.git
+[submodule "submodule/snipmate"]
+	path = submodule/snipmate
+	url = https://github.com/msanders/snipmate.vim.git
