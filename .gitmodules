@@ -28,3 +28,6 @@
 [submodule "submodule/tcomment"]
 	path = submodule/tcomment
 	url = https://github.com/tomtom/tcomment_vim.git
+[submodule "submodule/commandt"]
+	path = submodule/commandt
+	url = https://github.com/wincent/Command-T.git
