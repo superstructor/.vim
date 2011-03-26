@@ -4,3 +4,6 @@
 [submodule "submodule/jade"]
 	path = submodule/jade
 	url = https://github.com/digitaltoad/vim-jade.git
+[submodule "submodule/scss"]
+	path = submodule/scss
+	url = https://github.com/cakebaker/scss-syntax.vim.git
