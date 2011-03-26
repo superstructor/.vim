@@ -19,3 +19,6 @@
 [submodule "submodule/git"]
 	path = submodule/git
 	url = https://github.com/tpope/vim-git.git
+[submodule "submodule/fugitive"]
+	path = submodule/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
