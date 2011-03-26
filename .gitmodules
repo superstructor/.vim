@@ -73,3 +73,6 @@
 [submodule "submodule/javascript"]
 	path = submodule/javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "submodule/csv"]
+	path = submodule/csv
+	url = https://github.com/vim-scripts/csv.vim.git
