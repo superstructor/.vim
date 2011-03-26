@@ -79,3 +79,6 @@
 [submodule "submodule/neopro"]
 	path = submodule/neopro
 	url = https://github.com/vim-scripts/Neopro.git
+[submodule "submodule/dragon"]
+	path = submodule/dragon
+	url = https://github.com/vim-scripts/dragon.git
