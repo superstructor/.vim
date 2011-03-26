@@ -67,3 +67,6 @@
 [submodule "submodule/taglist-plus"]
 	path = submodule/taglist-plus
 	url = https://github.com/int3/vim-taglist-plus.git
+[submodule "submodule/stylus"]
+	path = submodule/stylus
+	url = https://github.com/wavded/vim-stylus.git
