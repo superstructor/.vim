@@ -49,3 +49,6 @@
 [submodule "submodule/vividchalk"]
 	path = submodule/vividchalk
 	url = https://github.com/tpope/vim-vividchalk.git
+[submodule "submodule/supertab"]
+	path = submodule/supertab
+	url = https://github.com/ervandew/supertab.git
