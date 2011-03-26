@@ -58,3 +58,6 @@
 [submodule "submodule/ruby"]
 	path = submodule/ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "submodule/jquery"]
+	path = submodule/jquery
+	url = https://github.com/itspriddle/vim-jquery.git
