@@ -22,3 +22,6 @@
 [submodule "submodule/fugitive"]
 	path = submodule/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "submodule/candyman"]
+	path = submodule/candyman
+	url = https://github.com/vim-scripts/candyman.vim.git
