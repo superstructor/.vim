@@ -25,3 +25,6 @@
 [submodule "submodule/candyman"]
 	path = submodule/candyman
 	url = https://github.com/vim-scripts/candyman.vim.git
+[submodule "submodule/tcomment"]
+	path = submodule/tcomment
+	url = https://github.com/tomtom/tcomment_vim.git
