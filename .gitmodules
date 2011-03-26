@@ -7,3 +7,6 @@
 [submodule "submodule/scss"]
 	path = submodule/scss
 	url = https://github.com/cakebaker/scss-syntax.vim.git
+[submodule "submodule/html5"]
+	path = submodule/html5
+	url = https://github.com/othree/html5-syntax.vim.git
