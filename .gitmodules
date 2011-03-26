@@ -61,3 +61,6 @@
 [submodule "submodule/jquery"]
 	path = submodule/jquery
 	url = https://github.com/itspriddle/vim-jquery.git
+[submodule "submodule/solarized"]
+	path = submodule/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
