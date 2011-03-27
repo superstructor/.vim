@@ -24,7 +24,9 @@ set shiftwidth=2
 set expandtab
 
 " Remove trailing whitespace whenever saving files
-autocmd BufWritePre * :%s/\s\+$//e
+if has("autocmd")
+  au BufWritePre * :%s/\s\+$//e
+endif
 
 " Incremental search
 set incsearch
