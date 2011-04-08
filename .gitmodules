@@ -82,3 +82,6 @@
 [submodule "submodule/dragon"]
 	path = submodule/dragon
 	url = https://github.com/vim-scripts/dragon.git
+[submodule "submodule/vimerl"]
+	path = submodule/vimerl
+	url = https://github.com/oscarh/vimerl.git
