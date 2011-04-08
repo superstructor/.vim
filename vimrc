@@ -52,3 +52,7 @@ set background=dark
 " Use solarized colorscheme
 colorscheme solarized
 
+" Riak configs are erlang
+if has("autocmd")
+  au BufNewFile,BufRead /etc/riak/* setf erlang
+endif
