@@ -85,3 +85,6 @@
 [submodule "submodule/vimerl"]
 	path = submodule/vimerl
 	url = https://github.com/oscarh/vimerl.git
+[submodule "submodule/shady"]
+	path = submodule/shady
+	url = https://github.com/cloudhead/shady.vim.git
