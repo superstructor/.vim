@@ -88,3 +88,6 @@
 [submodule "submodule/shady"]
 	path = submodule/shady
 	url = https://github.com/cloudhead/shady.vim.git
+[submodule "submodule/extradite"]
+	path = submodule/extradite
+	url = https://github.com/int3/vim-extradite.git
