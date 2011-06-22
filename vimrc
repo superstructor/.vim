@@ -17,6 +17,7 @@ set autoread
 
 " Turn off backup and swap files
 set nobackup
+set nowritebackup
 set noswapfile
 
 " Spaces not tabs
