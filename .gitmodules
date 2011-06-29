@@ -91,3 +91,6 @@
 [submodule "submodule/extradite"]
 	path = submodule/extradite
 	url = https://github.com/int3/vim-extradite.git
+[submodule "submodule/textile"]
+	path = submodule/textile
+	url = https://github.com/stepahn/textile.vim.git
