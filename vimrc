@@ -58,3 +58,6 @@ colorscheme neopro
 if has("autocmd")
   au BufNewFile,BufRead /etc/riak/* setf erlang
 endif
+
+" Fix long lines causing pattern matching OOM errors
+set maxmempattern=32768
