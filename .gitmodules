@@ -94,3 +94,6 @@
 [submodule "submodule/textile"]
 	path = submodule/textile
 	url = https://github.com/stepahn/textile.vim.git
+[submodule "submodule/mustache"]
+	path = submodule/mustache
+	url = https://github.com/juvenn/mustache.vim.git
