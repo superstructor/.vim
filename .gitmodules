@@ -97,3 +97,6 @@
 [submodule "submodule/mustache"]
 	path = submodule/mustache
 	url = https://github.com/juvenn/mustache.vim.git
+[submodule "submodule/jasmine"]
+	path = submodule/jasmine
+	url = https://github.com/claco/jasmine.vim.git
