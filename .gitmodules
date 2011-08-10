@@ -100,3 +100,6 @@
 [submodule "submodule/jasmine"]
 	path = submodule/jasmine
 	url = https://github.com/claco/jasmine.vim.git
+[submodule "submodule/stringtemplate"]
+	path = submodule/stringtemplate
+	url = https://github.com/jboyens/vim-stringtemplate.git
