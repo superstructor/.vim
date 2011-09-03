@@ -103,3 +103,6 @@
 [submodule "submodule/stringtemplate"]
 	path = submodule/stringtemplate
 	url = https://github.com/jboyens/vim-stringtemplate.git
+[submodule "submodule/slime"]
+	path = submodule/slime
+	url = https://github.com/jpalardy/vim-slime.git
