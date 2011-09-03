@@ -106,3 +106,6 @@
 [submodule "submodule/slime"]
 	path = submodule/slime
 	url = https://github.com/jpalardy/vim-slime.git
+[submodule "submodule/threesome"]
+	path = submodule/threesome
+	url = https://github.com/sjl/threesome.vim.git
