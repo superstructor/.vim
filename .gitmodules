@@ -124,3 +124,6 @@
 [submodule "submodule/prolog"]
 	path = submodule/prolog
 	url = https://github.com/adimit/prolog.vim.git
+[submodule "submodule/latex"]
+	path = submodule/latex
+	url = https://github.com/nuclearsandwich/vim-latex.git
