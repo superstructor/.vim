@@ -121,3 +121,6 @@
 [submodule "submodule/yaml"]
 	path = submodule/yaml
 	url = https://github.com/ingydotnet/yaml-vim.git
+[submodule "submodule/prolog"]
+	path = submodule/prolog
+	url = https://github.com/adimit/prolog.vim.git
