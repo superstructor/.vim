@@ -115,3 +115,6 @@
 [submodule "submodule/nginx"]
 	path = submodule/nginx
 	url = https://github.com/vim-scripts/nginx.vim.git
+[submodule "submodule/lua-inspect"]
+	path = submodule/lua-inspect
+	url = https://github.com/xolox/vim-lua-inspect.git
