@@ -61,3 +61,20 @@ endif
 
 " Fix long lines causing pattern matching OOM errors
 set maxmempattern=32768
+
+" Allow modelines
+set modeline
+
+" Append modeline after last line in buffer.
+" Use substitute() instead of printf() to handle '%%s' modeline in LaTeX
+" files.
+"
+" src: http://vim.wikia.com/wiki/Modeline_magic
+function! AppendModeline()
+  let l:modeline = printf(" vim: set ts=%d sw=%d tw=%d filetype=%s :",
+        \ &tabstop, &shiftwidth, &textwidth, &filetype)
+  let l:modeline = substitute(&commentstring, "%s", l:modeline, "")
+  call append(line("$"), l:modeline)
+endfunction
+nnoremap <silent> <Leader>ml :call AppendModeline()<CR>
+" vim: set ts=2 sw=2 tw=78 filetype=vim :
