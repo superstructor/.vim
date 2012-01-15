@@ -62,9 +62,6 @@ endif
 " Fix long lines causing pattern matching OOM errors
 set maxmempattern=32768
 
-" Allow modelines
-set modeline
-
 " Append modeline after last line in buffer.
 " Use substitute() instead of printf() to handle '%%s' modeline in LaTeX
 " files.
