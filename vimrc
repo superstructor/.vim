@@ -62,6 +62,10 @@ endif
 " Fix long lines causing pattern matching OOM errors
 set maxmempattern=32768
 
+" Highlight long lines
+highlight rightMargin ctermfg=lightblue
+match rightMargin /.\%>79v/
+
 " Append modeline after last line in buffer.
 " Use substitute() instead of printf() to handle '%%s' modeline in LaTeX
 " files.
