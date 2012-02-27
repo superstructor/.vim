@@ -51,8 +51,8 @@ set statusline=%F\ %m%r%w%y\ %=(%L\ loc)\ [#\%03.3b\ 0x\%02.2B]\ \ %l,%v\ \ %P
 " Use a dark background
 set background=dark
 
-" Use solarized colorscheme
-colorscheme neopro
+" Use koehler colorscheme
+colorscheme koehler
 
 " Riak configs are erlang
 if has("autocmd")
