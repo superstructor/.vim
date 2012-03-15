@@ -136,3 +136,6 @@
 [submodule "submodule/julia"]
 	path = submodule/julia
 	url = https://github.com/JuliaLang/julia-vim.git
+[submodule "submodule/less"]
+	path = submodule/less
+	url = https://github.com/groenewege/vim-less.git
