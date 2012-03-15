@@ -139,3 +139,6 @@
 [submodule "submodule/less"]
 	path = submodule/less
 	url = https://github.com/groenewege/vim-less.git
+[submodule "submodule/css3"]
+	path = submodule/css3
+	url = https://github.com/hail2u/vim-css3-syntax.git
