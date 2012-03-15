@@ -142,3 +142,6 @@
 [submodule "submodule/css3"]
 	path = submodule/css3
 	url = https://github.com/hail2u/vim-css3-syntax.git
+[submodule "submodule/css-color"]
+	path = submodule/css-color
+	url = https://github.com/skammer/vim-css-color.git
