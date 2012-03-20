@@ -6,6 +6,7 @@ call pathogen#runtime_append_all_bundles()
 
 filetype plugin on
 filetype indent on
+syntax on
 
 " Jump to the last position when reopening a file
 if has("autocmd")
