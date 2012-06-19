@@ -1,0 +1,2 @@
+" PEG.js
+autocmd BufNewFile,BufReadPost *.pegjs set filetype=pegjs

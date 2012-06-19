@@ -145,3 +145,6 @@
 [submodule "submodule/css-color"]
 	path = submodule/css-color
 	url = https://github.com/skammer/vim-css-color.git
+[submodule "submodule/pegjs"]
+	path = submodule/pegjs
+	url = https://github.com/alunny/pegjs-vim.git
