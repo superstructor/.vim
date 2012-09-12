@@ -148,3 +148,6 @@
 [submodule "submodule/pegjs"]
 	path = submodule/pegjs
 	url = https://github.com/alunny/pegjs-vim.git
+[submodule "submodule/moonscript"]
+	path = submodule/moonscript
+	url = https://github.com/leafo/moonscript-vim.git
