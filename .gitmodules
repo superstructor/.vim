@@ -148,3 +148,6 @@
 [submodule "submodule/moonscript"]
 	path = submodule/moonscript
 	url = https://github.com/leafo/moonscript-vim.git
+[submodule "submodule/snipmate"]
+	path = submodule/snipmate
+	url = https://github.com/garbas/vim-snipmate.git
