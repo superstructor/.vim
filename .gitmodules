@@ -157,3 +157,6 @@
 [submodule "submodule/tlib"]
 	path = submodule/tlib
 	url = https://github.com/tomtom/tlib_vim.git
+[submodule "submodule/misc"]
+	path = submodule/misc
+	url = https://github.com/xolox/vim-misc.git
