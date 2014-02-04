@@ -58,11 +58,6 @@ set background=dark
 " Use koehler colorscheme
 colorscheme koehler
 
-" Riak configs are erlang
-if has("autocmd")
-  au BufNewFile,BufRead /etc/riak/* setf erlang
-endif
-
 " Fix long lines causing pattern matching OOM errors
 set maxmempattern=32768
 
