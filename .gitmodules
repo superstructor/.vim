@@ -160,3 +160,6 @@
 [submodule "submodule/misc"]
 	path = submodule/misc
 	url = https://github.com/xolox/vim-misc.git
+[submodule "submodule/Dockerfile"]
+	path = submodule/Dockerfile
+	url = https://github.com/ekalinin/Dockerfile.vim.git
