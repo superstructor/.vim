@@ -163,3 +163,6 @@
 [submodule "submodule/Dockerfile"]
 	path = submodule/Dockerfile
 	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "submodule/systemd"]
+	path = submodule/systemd
+	url = https://github.com/kurayama/systemd-vim-syntax.git
