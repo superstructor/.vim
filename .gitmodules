@@ -166,3 +166,6 @@
 [submodule "submodule/systemd"]
 	path = submodule/systemd
 	url = https://github.com/kurayama/systemd-vim-syntax.git
+[submodule "submodule/toml"]
+	path = submodule/toml
+	url = https://github.com/cespare/vim-toml.git
