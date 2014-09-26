@@ -2,7 +2,7 @@
 " pathogen
 filetype off
 call pathogen#helptags()
-call pathogen#incubate()
+call pathogen#infect('bundle/{}')
 
 filetype plugin on
 filetype indent on
