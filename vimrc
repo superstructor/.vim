@@ -77,4 +77,8 @@ function! AppendModeline()
   call append(line("$"), l:modeline)
 endfunction
 nnoremap <silent> <Leader>ml :call AppendModeline()<CR>
+
+" ES6 is JavaScript
+autocmd BufRead,BufNewFile *.es6 setfiletype javascript
+
 " vim: set ts=2 sw=2 tw=78 filetype=vim :
