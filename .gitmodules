@@ -124,9 +124,6 @@
 [submodule "submodule/latex"]
 	path = submodule/latex
 	url = https://github.com/nuclearsandwich/vim-latex.git
-[submodule "submodule/eco"]
-	path = submodule/eco
-	url = https://github.com/jayferd/eco.vim.git
 [submodule "submodule/elixir"]
 	path = submodule/elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
