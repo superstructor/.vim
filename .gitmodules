@@ -169,3 +169,6 @@
 [submodule "submodule/toml"]
 	path = submodule/toml
 	url = https://github.com/cespare/vim-toml.git
+[submodule "submodule/dash"]
+	path = submodule/dash
+	url = git@github.com:rizzatti/dash.vim.git
