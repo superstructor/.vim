@@ -127,9 +127,6 @@
 [submodule "submodule/elixir"]
 	path = submodule/elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
-[submodule "submodule/julia"]
-	path = submodule/julia
-	url = https://github.com/JuliaLang/julia-vim.git
 [submodule "submodule/less"]
 	path = submodule/less
 	url = https://github.com/groenewege/vim-less.git
