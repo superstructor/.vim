@@ -58,7 +58,7 @@ set statusline=%F\ %m%r%w%y\ %=(%L\ loc)\ [#\%03.3b\ 0x\%02.2B]\ \ %l,%v\ \ %P
 set background=dark
 
 " Use solarized colorscheme
-colorscheme solarized
+colorscheme candyman
 
 " Fix long lines causing pattern matching OOM errors
 set maxmempattern=32768
