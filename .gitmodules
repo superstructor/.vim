@@ -106,9 +106,6 @@
 [submodule "submodule/threesome"]
 	path = submodule/threesome
 	url = https://github.com/sjl/threesome.vim.git
-[submodule "submodule/showmarks"]
-	path = submodule/showmarks
-	url = https://github.com/vim-scripts/ShowMarks.git
 [submodule "submodule/nginx"]
 	path = submodule/nginx
 	url = https://github.com/vim-scripts/nginx.vim.git
