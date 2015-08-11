@@ -163,3 +163,6 @@
 [submodule "submodule/dash"]
 	path = submodule/dash
 	url = git@github.com:rizzatti/dash.vim.git
+[submodule "submodule/jsx"]
+	path = submodule/jsx
+	url = git@github.com:mxw/vim-jsx.git
