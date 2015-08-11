@@ -166,3 +166,6 @@
 [submodule "submodule/jsx"]
 	path = submodule/jsx
 	url = git@github.com:mxw/vim-jsx.git
+[submodule "submodule/cjsx"]
+	path = submodule/cjsx
+	url = git@github.com:mtscout6/vim-cjsx.git
