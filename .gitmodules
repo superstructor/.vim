@@ -162,10 +162,10 @@
 	url = https://github.com/cespare/vim-toml.git
 [submodule "submodule/dash"]
 	path = submodule/dash
-	url = git@github.com:rizzatti/dash.vim.git
+	url = https://github.com/rizzatti/dash.vim.git
 [submodule "submodule/jsx"]
 	path = submodule/jsx
-	url = git@github.com:mxw/vim-jsx.git
+	url = https://github.com/mxw/vim-jsx.git
 [submodule "submodule/cjsx"]
 	path = submodule/cjsx
-	url = git@github.com:mtscout6/vim-cjsx.git
+	url = https://github.com/mtscout6/vim-cjsx.git
