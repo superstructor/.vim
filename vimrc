@@ -83,4 +83,10 @@ nnoremap <silent> <Leader>ml :call AppendModeline()<CR>
 " ES6 is JavaScript
 autocmd BufRead,BufNewFile *.es6 setfiletype javascript
 
+" Clojure is Clojure
+autocmd BufRead,BufNewFile *.clj setfiletype clojure
+autocmd BufRead,BufNewFile *.cljs setfiletype clojure
+autocmd BufRead,BufNewFile *.boot setfiletype clojure
+autocmd BufRead,BufNewFile *.edn setfiletype clojure
+
 " vim: set ts=2 sw=2 tw=78 filetype=vim :
