@@ -43,6 +43,12 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" Always show status line
+set laststatus=2
+
+" Some useful information in the status line
+set statusline=%F\ %m%r%w%y\ %=(%L\ loc)\ [#\%03.3b\ 0x\%02.2B]\ \ %l,%v\ \ %P
+
 " Clojure is Clojure
 autocmd BufRead,BufNewFile *.clj setfiletype clojure
 autocmd BufRead,BufNewFile *.cljs setfiletype clojure
