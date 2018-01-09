@@ -14,6 +14,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'dracula/vim'
 
 Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'clojure-emacs/cider-nrepl'
+Plugin 'tpope/vim-fireplace'
+Plugin 'guns/vim-clojure-highlight'
 
 call vundle#end()
 
