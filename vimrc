@@ -22,6 +22,8 @@ Plugin 'guns/vim-clojure-highlight'
 
 Plugin 'pangloss/vim-javascript'
 
+Plugin 'ekalinin/Dockerfile.vim'
+
 call vundle#end()
 
 filetype plugin indent on
