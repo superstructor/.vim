@@ -16,6 +16,11 @@ call vundle#end()
 filetype plugin indent on
 syntax on
 
+" Turn off backup and swap files
+set nobackup
+set nowritebackup
+set noswapfile
+
 " Spaces not tabs
 set tabstop=2
 set shiftwidth=2
