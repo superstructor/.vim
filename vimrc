@@ -15,3 +15,8 @@ call vundle#end()
 
 filetype plugin indent on
 syntax on
+
+" Spaces not tabs
+set tabstop=2
+set shiftwidth=2
+set expandtab
