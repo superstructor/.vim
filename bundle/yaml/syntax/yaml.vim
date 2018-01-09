@@ -1,1 +1,0 @@
-../../../submodule/yaml/yaml.vim
