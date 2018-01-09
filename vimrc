@@ -13,10 +13,19 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'dracula/vim'
 
+Plugin 'kien/rainbow_parentheses.vim'
+
 call vundle#end()
 
 filetype plugin indent on
 syntax on
+
+" Rainbow parentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+au Syntax * RainbowParenthesesLoadChevrons
 
 " Use https://draculatheme.com
 color dracula
