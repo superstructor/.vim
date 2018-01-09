@@ -53,6 +53,9 @@ let g:javascript_conceal_noarg_arrow_function = "🞅"
 let g:javascript_conceal_underscore_arrow_function = "🞅"
 set conceallevel=1
 
+" Auto-reload modified files with no local changes
+set autoread
+
 " Turn off backup and swap files
 set nobackup
 set nowritebackup
@@ -63,11 +66,35 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
-" Always show status line
+" Commands for tab conversion
+command! -range=% -nargs=0 Tab2Space execute '<line1>,<line2>s#^\t\+#\=repeat(" ", len(submatch(0))*' . &ts . ')'
+command! -range=% -nargs=0 Space2Tab execute '<line1>,<line2>s#^\( \{'.&ts.'\}\)\+#\=repeat("\t", len(submatch(0))/' . &ts . ')'
+
+" Remove trailing whitespace whenever saving files
+if has("autocmd")
+  au BufWritePre * :%s/\s\+$//e
+endif
+
+" Incremental search
+set incsearch
+
+" Smart case matching
+set smartcase
+
+" Show matching brackets
+set showmatch
+
+" Show line numbers
+set number
+
+" Show status line
 set laststatus=2
 
-" Some useful information in the status line
+" Show some useful information in the status line
 set statusline=%F\ %m%r%w%y\ %=(%L\ loc)\ [#\%03.3b\ 0x\%02.2B]\ \ %l,%v\ \ %P
+
+" Fix long lines causing pattern matching OOM errors
+set maxmempattern=32768
 
 " Clojure is Clojure
 autocmd BufRead,BufNewFile *.clj setfiletype clojure
