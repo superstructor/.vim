@@ -11,10 +11,15 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
+Plugin 'dracula/vim'
+
 call vundle#end()
 
 filetype plugin indent on
 syntax on
+
+" Use https://draculatheme.com
+color dracula
 
 " Turn off backup and swap files
 set nobackup
