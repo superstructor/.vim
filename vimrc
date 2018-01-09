@@ -42,3 +42,9 @@ set noswapfile
 set tabstop=2
 set shiftwidth=2
 set expandtab
+
+" Clojure is Clojure
+autocmd BufRead,BufNewFile *.clj setfiletype clojure
+autocmd BufRead,BufNewFile *.cljs setfiletype clojure
+autocmd BufRead,BufNewFile *.boot setfiletype clojure
+autocmd BufRead,BufNewFile *.edn setfiletype clojure
