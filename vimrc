@@ -13,6 +13,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'dracula/vim'
 
+Plugin 'tpope/vim-fugitive'
+
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'clojure-emacs/cider-nrepl'
 Plugin 'tpope/vim-fireplace'
